@@ -7,6 +7,6 @@ char* welcome() {
 int main() {
     long a;
     scanf("%ld",&a);
-    (a>>31);
+    (a>>32);
     printf("%d",a);
 }
