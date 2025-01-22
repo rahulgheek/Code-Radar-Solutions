@@ -5,7 +5,7 @@ char* welcome() {
 }
 
 int main() {
-    int a;
+    long a;
     scanf("%d",&a);
     (a&(2**32) == (2**32))?printf("Set"):printf("Not Set");
     return 0;
