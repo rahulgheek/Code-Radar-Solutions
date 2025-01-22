@@ -7,6 +7,6 @@ char* welcome() {
 int main() {
     long a;
     scanf("%ld",&a);
-    (a&4294967296 == 4294967296)?printf("Set"):printf("Not Set");
-    return 0;
+    (a>>31);
+    printf("%d",a);
 }
