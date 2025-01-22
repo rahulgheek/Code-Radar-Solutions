@@ -7,6 +7,5 @@ char* welcome() {
 int main() {
     int a;
     scanf("%d",&a);
-    
-    printf("%d",a>>31);
+    (a>>31 == 0)?printf("Not Set"):printf("Set")
 }
