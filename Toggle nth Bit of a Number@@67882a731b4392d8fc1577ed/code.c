@@ -6,7 +6,7 @@ int main() {
     int a,b,c;
     scanf("%d %d",&a,&b);
     c = pow(2,b);
-    if(a&1 == 1){
+    if(a&c == 1){
         printf("%d",a-c);
     }
     else{
