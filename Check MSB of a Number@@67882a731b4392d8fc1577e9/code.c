@@ -5,8 +5,8 @@ char* welcome() {
 }
 
 int main() {
-    long a;
-    scanf("%ld",&a);
+    int a;
+    scanf("%d",&a);
     (a>>32);
     printf("%d",a);
 }
