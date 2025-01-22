@@ -8,5 +8,5 @@ int main() {
     int a;
     scanf("%d",&a);
     
-    printf("%d",a>>30);
+    printf("%d",a>>31);
 }
