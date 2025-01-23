@@ -7,11 +7,11 @@ int main() {
     switch(c){
         case '+':printf("%d",a+b);
         break;
-        case "-":printf("%d",a-b);
+        case '-':printf("%d",a-b);
         break;
-        case "*":printf("%d",a*b);
+        case '*':printf("%d",a*b);
         break;
-        case "/":printf("%d",a/b);
+        case '/':printf("%d",a/b);
         break;
         default:printf("");
     }
