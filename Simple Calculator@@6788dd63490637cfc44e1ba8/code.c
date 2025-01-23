@@ -4,8 +4,9 @@ int main() {
     int a,b;
     char c;
     scanf("%d %d %c",&a,&b,&c);
-    if(c=="+"){
-        printf("%d",a+b);
+    switch(c){
+        case '+':printf("%d",a+b);
+        break;
+        default:printf("Sameer chamar");
     }
-    return 0;
 }
