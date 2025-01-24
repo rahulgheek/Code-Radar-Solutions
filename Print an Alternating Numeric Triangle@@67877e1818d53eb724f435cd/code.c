@@ -12,6 +12,7 @@ int main() {
                 b=1;
             }
         }
+        printf("\n");
     }
     return 0;
 }
