@@ -3,6 +3,7 @@
 int main() {
     int a;
     char b;
+    scanf("%d",&a);
     for(int i = 0;i<a;i++){
         b = 'A';
         for(int j = a;j>i;j--){
