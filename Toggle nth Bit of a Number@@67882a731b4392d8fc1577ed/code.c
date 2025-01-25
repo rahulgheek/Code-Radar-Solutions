@@ -8,6 +8,6 @@ int main() {
         d = d*2;
     }
     c = a^d;
-    printf("%d",d);
+    printf("%d",c);
     return 0;
 }
