@@ -2,10 +2,12 @@
 #include <math.h>
 
 int main() {
-    int a,b,c,d;
+    int a,b,c,d=1;
     scanf("%d %d",&a,&b);
-    d = pow(2,b);
+    for(int i = 0;i<b;i++){
+        d = d*2;
+    }
     c = a^d;
-    printf("%d",c);
+    printf("%d",d);
     return 0;
 }
