@@ -5,12 +5,8 @@
 int main() {
     int a,b,c;
     scanf("%d %d",&a,&b);
-    c = 1<<b;
-    if(a&c == 1){
-        printf("%d",a-c);
-    }
-    else{
-        printf("%d",a+c);
-    }
+    int d = pow(2,b);
+    c = a^d;
+    printf("%d",c);
     return 0;
 }
