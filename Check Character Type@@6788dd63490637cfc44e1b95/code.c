@@ -6,8 +6,14 @@ int main() {
     if(a=='a' || a=='e' || a=='i' || a=='o' || a=='u'){
         printf("Vowel");
     }
-    else{
+    else if(a>='0' && a<='9'){
+        printf("Digit");
+    }
+    else if(a>='a' && a<='z'){
         printf("Consonant");
+    }
+    else{
+        printf("Special Character");
     }
     return 0;
 }
