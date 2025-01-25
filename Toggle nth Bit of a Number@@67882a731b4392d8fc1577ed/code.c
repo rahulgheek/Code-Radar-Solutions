@@ -1,11 +1,11 @@
 #include <stdio.h>
 #include <math.h>
 
-
 int main() {
-    int a,b,c;
+    int a,b,c,d;
     scanf("%d %d",&a,&b);
-    int d = pow(2,b);
-    printf("%d",d);
+    d = pow(2,b);
+    c = a^d;
+    printf("%d",c);
     return 0;
 }
