@@ -13,6 +13,6 @@ int main() {
         break;
         case '/':printf("%.0f",a/b);
         break;
-        default:printf("error");
+        default:printf("Error");
     }
 }
