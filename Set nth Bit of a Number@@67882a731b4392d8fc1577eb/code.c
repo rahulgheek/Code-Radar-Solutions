@@ -6,6 +6,6 @@ int main() {
     for(int i = 0;i<b;i++){
         c = c*2;
     }
-    printf("%d",c);
+    printf("%d",a|c);
     return 0;
 }
