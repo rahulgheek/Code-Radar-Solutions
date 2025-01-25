@@ -9,9 +9,9 @@ int main() {
         break;
         case '-':printf("%.0f",a-b);
         break;
-        case '*':printf("%.0f",a*b);
+        case '*':printf("%.0f",a+b);
         break;
-        case '/':printf("%.0f",a+b);
+        case '/':printf("%.0f",a/b);
         break;
         default:printf("Error");
     }
