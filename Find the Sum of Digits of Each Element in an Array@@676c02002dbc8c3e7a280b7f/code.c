@@ -1,13 +1,6 @@
 #include <stdio.h>
 
-int sumOfdigits(int num){
-    int sum = 0;
-    while(num!=0){
-        sum += num%10;
-        n /= 10;
-    }
-    return sum;
-}
+
 
 int main() {
     int n;
@@ -18,8 +11,12 @@ int main() {
     }
 
     for(int j = 0;j<n;j++){
-        printf("%d",sumOfdigits(arr[j]));
-        
+        int sum = 0;
+        while(arr[j] != 0){
+            sum += arr[j] %10;
+            arr[j] /=10;
+        }
+        printf("%d ",sum);
     }
     return 0;
 }
