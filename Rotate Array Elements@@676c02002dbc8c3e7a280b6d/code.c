@@ -3,22 +3,21 @@
 int main() {
     int a,k,temp;
     scanf("%d",&a);
-    int marks[a];
+    int marks[a],arr[a];
     for(int i = 0;i<a;i++){
         scanf("%d",&marks[i]);
     }
     scanf("%d",&k);
 
     for(int j = 0;j<k;j++){
-        temp = marks[a-1];
-        for(int l = (a-1);l<0;l--){
-            marks[l+1] = marks[l];
+        arr[0] = marks[a-1];
+        for(int l = 1;l<(a-1);l++){
+            arr[l] = marks[l+1];
         }
-        marks[0] = temp;
     }
 
     for(int m=0;m<a;m++){
-        printf("%d\n",marks[m]);
+        printf("%d\n",arr[m]);
     }
     return 0;
 }
