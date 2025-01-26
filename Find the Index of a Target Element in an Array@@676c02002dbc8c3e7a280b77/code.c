@@ -13,6 +13,7 @@ int main() {
     for(int j = 0;j<a;j++){
         if(arr[j]==k){
             last = j;
+            break;
         }
     }
     printf("%d",last);
