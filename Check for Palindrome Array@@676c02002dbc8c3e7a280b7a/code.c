@@ -8,9 +8,8 @@ int main() {
         scanf("%d",&arr[i]);
     }
     for(int j = 0;j<n;j++){
-        if(arr[j]!=arr[n-1-j]){
-            result = 0;
-            break;
+        if(arr[j]==arr[n-1-j]){
+            result = 1;
         }
     }
 
