@@ -10,7 +10,7 @@ int main() {
     }
 
     for(int j = 0;j<(a-1);j++){
-        if(arr[j]>=arr[j+1]){
+        if(arr[j]>arr[j+1]){
             b = 0;
             break;
         }
