@@ -18,7 +18,7 @@ int main() {
     }
 
     for(int m=0;m<a;m++){
-        printf("%d",marks[m]);
+        printf("%d\n",marks[m]);
     }
     return 0;
 }
