@@ -13,7 +13,7 @@ int isPrime(int n){
 }
 
 int main() {
-    int n,count=0,s;
+    int n,s,count=0;
     scanf("%d",&n);
     int arr[n];
     for(int i = 0;i<n;i++){
@@ -22,9 +22,10 @@ int main() {
 
     for(int j == 0;j<n;j++){
         s = isPrime(arr[j]);
-        if(s){count++;}
+        if(s){
+            count++;
+        }
     }
-
     printf("%d",count);
     return 0;
 }
