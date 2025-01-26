@@ -1,9 +1,5 @@
 #include <stdio.h>
 
-char* welcome() {
-    return "Welcome to Code Radar!";
-}
-
 int main() {
     int a;
     scanf("%d",&a);
@@ -11,6 +7,8 @@ int main() {
     for(int i = 0;i<a;i++){
         scanf("%d",&arr[i]);
     }
-    printf("%d %d",arr[0],arr[1])
+    for(int j = 0;j<a;j++){
+        printf("%d",arr[j]);
+    }
     return 0;
 }
