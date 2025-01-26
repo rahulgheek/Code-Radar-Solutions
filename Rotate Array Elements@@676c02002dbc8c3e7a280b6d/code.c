@@ -14,7 +14,6 @@ int main() {
         for(int l = (a-1);l<0;l--){
             marks[l] = marks[l+1];
         }
-        marks[0] = temp;
     }
 
     for(int m=0;m<a;m++){
