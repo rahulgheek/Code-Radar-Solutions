@@ -8,12 +8,17 @@ int main() {
         scanf("%d",&arr[i]);
     }
     for(int j = 0;j<n;j++){
-        if(arr[j]==arr[n-1-j]){
-            result = 1;
+        if(arr[j]!=arr[n-1-j]){
+            result = 0;
+            break;
         }
     }
 
-    if(resut==0){printf("NO");}
-    else{printf("YES");}
+    if(result==0){
+        printf("NO");
+    }
+    else{
+        printf("YES");
+    }
     return 0;
 }
