@@ -5,7 +5,7 @@ int main() {
     scanf("%d",&a);
     int marks[a];
     for(int i = 0;i<a;i++){
-        scanf("%d",%marks[i]);
+        scanf("%d",&marks[i]);
     }
     scanf("%d",&k);
 
