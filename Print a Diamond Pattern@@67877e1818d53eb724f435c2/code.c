@@ -20,7 +20,7 @@ int main() {
             printf(" ");
         }
 
-        for(int k = (i*2-1);k>1;k--){
+        for(int k = (i*2-1);k>=1;k--){
             printf("*");
         }
         printf("\n");
