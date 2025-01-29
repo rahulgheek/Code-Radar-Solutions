@@ -2,9 +2,11 @@
 #include <math.h>
 
 int main() {
-    int a,b,c;
+    int a,b,c=0;
     scanf("%d %d",&a,&b);
-    c = pow(2,b);
+    for(int i = 0;i<=b;i++){
+        c += i*2;
+    }
     a -= c;
     printf("%d",a);
     return 0;
