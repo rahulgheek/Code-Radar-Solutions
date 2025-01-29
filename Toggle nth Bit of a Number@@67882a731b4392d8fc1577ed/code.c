@@ -4,10 +4,6 @@
 int main() {
     int a,b,c,d=1;
     scanf("%d %d",&a,&b);
-    for(int i = 0;i<b;i++){
-        d = d*2;
-    }
-    c = a^d;
-    printf("%d",c);
+    printf("%d",a^(1<<b));
     return 0;
 }
