@@ -11,8 +11,8 @@ int main() {
 
     for(j = 0;j<k;j++){
         temp = arr[a-1];
-        for(int k = 0;k<a;k++){
-            arr[k+1] = arr[k];
+        for(int l = 0;l<a;l++){
+            arr[l+1] = arr[l];
         }
         arr[0] = temp;
     }
