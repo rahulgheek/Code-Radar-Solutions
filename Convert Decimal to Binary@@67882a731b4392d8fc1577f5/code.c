@@ -13,7 +13,7 @@ int main() {
             arr[i] = 1;
         }
         a = a/2;
-        b++;
+        i++;
     }
 
     printf("%d",arr[0]);
