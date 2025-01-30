@@ -8,7 +8,7 @@ int main() {
             printf("%d",0);
         }
         else{
-            printf("%d",0);
+            printf("%d",1);
         }
         a = a/2;
     }
