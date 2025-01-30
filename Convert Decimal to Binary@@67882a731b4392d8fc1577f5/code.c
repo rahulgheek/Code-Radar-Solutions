@@ -1,8 +1,9 @@
 #include <stdio.h>
 
 int main() {
-    int a,i=0;
+    int a,i=0,c;
     scanf("%d",&a);
+    c=a;
     int arr[50];
 
     while(a>0){
@@ -15,7 +16,7 @@ int main() {
         a = a/2;
         i++;
     }
-    if(a==0){
+    if(c==0){
         printf("%d",0);
     }
     else{
