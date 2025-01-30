@@ -3,7 +3,14 @@
 int main() {
     int a,count=0;
     scanf("%d",&a);
-    a = a>>2;
-    printf("%d",a);
+    
+    while(a!=0){
+        a = a>>1;
+        count++;
+        while(a!=0){
+            break;
+        }
+    }
+    printf("%d",count);
     return 0;
 }
