@@ -9,11 +9,12 @@ int main() {
     }
     scanf("%d",&k);
 
-    for(int j = 0;j<k;j++){
-        arr[0] = marks[a-1];
-        for(int l = 1;l<(a-1);l++){
-            arr[l] = marks[l+1];
+    for(j = 0;j<k;j++){
+        temp = arr[a-1];
+        for(int k = 0;k<a;k++){
+            arr[k+1] = arr[k];
         }
+        arr[0] = temp;
     }
 
     for(int m=0;m<a;m++){
