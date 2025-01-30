@@ -11,6 +11,6 @@ int main() {
         a = a>>1;
         count++;
     }
-    printf("%d",count);
+    printf("%d",count-2);
     return 0;
 }
