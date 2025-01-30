@@ -9,7 +9,7 @@ int main() {
         scanf("%d",&arr[i]);
     }
 
-    for(int j = 0;j<=a;j++){
+    for(int j = 0;j<a;j++){
         if((arr[j] > large) && (arr[j]%2==0)){
             large = arr[j];
         }
