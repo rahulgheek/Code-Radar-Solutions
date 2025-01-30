@@ -16,7 +16,7 @@ int main() {
         i++;
     }
 
-    for(int j = i;j>=0;j--){
+    for(int j = i;j>0;j--){
         printf("%d",arr[j]);
     }
     return 0;
