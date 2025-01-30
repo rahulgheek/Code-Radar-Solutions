@@ -10,7 +10,7 @@ int main() {
     }
 
     for(int j = 0;j<a-2;j++){
-        if((arr[j]<arr[j+1] && arr[j+1]<arr[j+2]) || (arr[j]>arr[j+1] && arr[j+1]>arr[j+2])){
+        if((arr[j]<=arr[j+1] && arr[j+1]<=arr[j+2]) || (arr[j]>=arr[j+1] && arr[j+1]>=arr[j+2])){
             b = 1;
         }
         else{
