@@ -5,12 +5,12 @@ int main() {
     scanf("%d",&a);
     
     while(a!=0){
-        a = a>>1;
-        count++;
         while(a!=0){
             break;
         }
+        a = a>>1;
+        count++;
     }
-    printf("%d",count-1);
+    printf("%d",count);
     return 0;
 }
