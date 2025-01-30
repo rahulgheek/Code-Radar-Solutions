@@ -9,12 +9,13 @@ int main() {
         scanf("%d",&arr[i]);
     }
 
-    for(int j = 0;j<a-1;j++){
-        if(arr[j]<arr[j+1]){
+    for(int j = 0;j<a-2;j++){
+        if((arr[j]<arr[j+1] && arr[j+1]<arr[j+2]) || (arr[j]>arr[j+1] && arr[j+1]>arr[j+2])){
             b = 1;
         }
         else{
             b=0;
+            break;
         }
     }
 
