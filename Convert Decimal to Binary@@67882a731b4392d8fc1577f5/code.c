@@ -1,16 +1,21 @@
 #include <stdio.h>
 
 int main() {
-    int a;
+    int a,i=0;
     scanf("%d",&a);
+    int arr[100];
+
     while(a>0){
         if(a%2==0){
-            printf("%d",0);
+            arr[i] = 0;
         }
         else{
-            printf("%d",1);
+            arr[i] = 1;
         }
         a = a/2;
+        b++;
     }
+
+    printf("%d",arr[0]);
     return 0;
 }
