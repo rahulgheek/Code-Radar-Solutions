@@ -10,8 +10,8 @@ int main() {
         scanf("%d",&arr[i]);
     }
 
-    for(int j = 0;j<a-1;j++){
-        if(least>arr[j] && arr[j]!=arr[j+1]){
+    for(int j = 0;j<a;j++){
+        if(least>arr[j]){
             secondleast = least;
             least = arr[j];
         }
