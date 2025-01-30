@@ -13,6 +13,7 @@ int main() {
         for(int k = j+1;k<a;k++){
             if(arr[j]==arr[k] && j!=k){
                 printf("%d",arr[k]);
+                break;
             }
         }
     }
