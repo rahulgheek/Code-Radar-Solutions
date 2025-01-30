@@ -6,7 +6,7 @@ int main() {
     while(a!=0){
         a = a>>1;
         count++;
-        if(a&1==1){
+        if(a==1){
             break;
         }
     }
