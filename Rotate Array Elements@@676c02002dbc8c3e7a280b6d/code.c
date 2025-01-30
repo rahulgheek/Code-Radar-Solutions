@@ -9,13 +9,11 @@ int main() {
     }
     scanf("%d",&k);
 
-    for(j = 0;j<k;j++){
-        temp = arr[a-1];
-        for(int l = 0;l<a-1;l++){
-            arr[l+1] = arr[l];
-        }
-        arr[0] = temp;
+    temp = arr[a-1];
+    for(int l = 0;l<a-1;l++){
+        arr[l+1] = arr[l];
     }
+    arr[0] = temp;
 
     for(int m=0;m<a;m++){
         printf("%d\n",arr[m]);
