@@ -3,7 +3,7 @@
 int main() {
     int a,i=0;
     scanf("%d",&a);
-    int arr[100];
+    int arr[3];
 
     while(a>0){
         if(a%2==0){
