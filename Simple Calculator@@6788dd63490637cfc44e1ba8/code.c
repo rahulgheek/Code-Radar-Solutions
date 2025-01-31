@@ -16,6 +16,6 @@ int main() {
             printf("%d",a/b);
         }
         break;
-        default:printf("Error");
+        default:printf("error");
     }
 }
