@@ -23,7 +23,7 @@ int main() {
         }
     }
 
-    printf("%d",large);
+    printf("%d",output);
 
     return 0;
 }
