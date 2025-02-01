@@ -14,7 +14,7 @@ int main() {
         for(int k = j+1;k<a;k++){
             if(arr[j]+arr[k]==n){
                 if(arr[k]>arr[j]){
-                    printf("%d %d/n",arr[j],arr[k]);
+                    printf("%d %d\n",arr[j],arr[k]);
                 }
                 else{
                     printf("%d %d\n",arr[k],arr[j]);
