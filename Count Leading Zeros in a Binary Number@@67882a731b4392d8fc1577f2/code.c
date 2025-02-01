@@ -14,7 +14,7 @@ int main() {
         printf("%d",0);
     }
     else{
-    printf("%d",32-count);
+    printf("%d",32-count-1);
     }
     return 0;
 }
