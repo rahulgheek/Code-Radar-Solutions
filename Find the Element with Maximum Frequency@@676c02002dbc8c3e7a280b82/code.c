@@ -16,10 +16,10 @@ int main() {
                 count++;
                 present = arr[j];
             }
-        }
-        if(large<count){
-            present = output;
-            large = count;
+            if(large<count){
+                present = output;
+                large = count;
+            }
         }
     }
 
