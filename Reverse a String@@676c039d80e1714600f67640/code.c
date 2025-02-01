@@ -7,6 +7,9 @@ int main() {
     while(str[i]!='\0'){
         i++;
     }
-    printf("%d",i);
+    
+    for(int j = i-1;j>=0;j--){
+        printf("%s",str[j]);
+    }
     return 0;
 }
