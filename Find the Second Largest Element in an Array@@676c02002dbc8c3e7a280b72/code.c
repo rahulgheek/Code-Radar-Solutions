@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main() {
-    int a,large=0,secondlarge;
+    int a,large=0,secondlarge=0;
     scanf("%d",&a);
     int arr[a];
 
