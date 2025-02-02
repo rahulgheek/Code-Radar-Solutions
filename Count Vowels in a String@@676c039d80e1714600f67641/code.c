@@ -2,6 +2,6 @@
 
 int main() {
     char str[20];
-    gets(str);
+    get(str);
     return 0;
 }
