@@ -6,7 +6,7 @@ int main() {
     scanf("%[^\n]%*c",&str);
 
     int i = 0;
-    while(i!='\0'){
+    while(str[i]!='\0'){
         if(str[i]!='0' || str[i]!='1'){
             a = 1;
             break;
