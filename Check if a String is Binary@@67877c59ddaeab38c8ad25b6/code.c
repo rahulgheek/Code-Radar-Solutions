@@ -12,6 +12,6 @@ int main() {
         }
         i++;
     }
-    printf("%d %d",a,i)
+    printf("%d %d",a,i);
     return 0;
 }
