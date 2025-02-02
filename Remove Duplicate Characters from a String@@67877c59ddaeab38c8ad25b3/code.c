@@ -17,6 +17,7 @@ int main() {
         if(str[k]!=' '){
             printf("%c",str[k]);
         }
+        k++;
     }
     return 0;
 }
