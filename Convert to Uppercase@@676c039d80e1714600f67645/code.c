@@ -5,11 +5,11 @@ int main() {
     scanf("%[^\n]%*c",&str);
     int i = 0;
     while(str[i]!=0){
-        if((str[i]>='A' && str[i]<='Z') || str[i]==' '){
-            printf("%c",str[i]);
+        if(str[i]>='a' && str[i]<='a'){
+            printf("%c",str[i]-32);
         }
         else{
-        printf("%c",str[i]-32);}
+        printf("%c",str[i]);}
         i++;
     }
     return 0;
