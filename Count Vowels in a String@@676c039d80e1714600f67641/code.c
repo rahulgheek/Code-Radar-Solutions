@@ -2,6 +2,6 @@
 
 int main() {
     char str[20];
-    get(str);
+    scanf("%s",&str);
     return 0;
 }
