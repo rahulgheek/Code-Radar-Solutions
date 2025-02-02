@@ -13,7 +13,7 @@ int main() {
         }
         i++;
     }
-    if(a){printf("Yes");}
-    else{printf("No");}
+    if(a){printf("No");}
+    else{printf("Yes");}
     return 0;
 }
