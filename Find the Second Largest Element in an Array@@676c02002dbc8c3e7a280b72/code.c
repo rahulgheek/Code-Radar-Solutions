@@ -14,12 +14,20 @@ int main() {
             large = arr[j];
         }
     }
+    int c = 0;
 
     for(int k = 0;k<a;k++){
+        if(arr[k]==large){
+            c++
+        }
         if(arr[k]>secondlarge && arr[k]!=large){
             secondlarge = arr[k];
         }
     }
-    printf("%d",secondlarge);
+    if(c==1){
+        printf("%d",secondlarge);
+    }
+    else{
+    printf("%d",large);}
     return 0;
 }
