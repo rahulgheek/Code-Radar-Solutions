@@ -13,7 +13,9 @@ int main() {
                 break;
                 break;
             }
+            j++;
         }
+        i++;
     }
 
     printf("%c",a);
