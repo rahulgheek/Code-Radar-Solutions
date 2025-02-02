@@ -7,7 +7,7 @@ int main() {
 
     int i = 0;
     while(str[i]!='\0'){
-        if(str[i]=='0' || str[i]=='1'){
+        if(str[i]!='0' || str[i]!='1'){
             a=1;
             break;
         }
