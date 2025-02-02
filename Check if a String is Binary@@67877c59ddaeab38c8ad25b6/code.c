@@ -12,6 +12,7 @@ int main() {
         }
         i++;
     }
-    printf("%d %d",a,i);
+    if(a==i){printf("Yes");}
+    else{printf("No");}
     return 0;
 }
