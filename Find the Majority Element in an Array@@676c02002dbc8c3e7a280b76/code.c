@@ -18,7 +18,6 @@ int main() {
             if(c == count){
                 largest = -1;
                 break;
-                break;
             }
             c++;
         }
