@@ -9,7 +9,7 @@ int main() {
         int j = 0;
         while(str[j]!='\0'){
             if(str[i]!=str[j] && i!=j){
-                a = str[i];
+                a = str[j];
                 break;
                 break;
             }
