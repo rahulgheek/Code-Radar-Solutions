@@ -11,6 +11,7 @@ int main() {
         if(str[i]==a){
             str[i]=b;
         }
+        i++;
     }
     printf("%s",str);
     return 0;
