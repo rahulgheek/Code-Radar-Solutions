@@ -12,10 +12,14 @@ int main() {
 
     for(int j = 0;j<n;j++){
         int sum = 0;
+        if(arr[j]==0){
+            printf("%d ",0);
+        }
+        else{
         while(arr[j] != 0){
             sum += arr[j] %10;
             arr[j] /=10;
-        }
+        }}
         printf("%d ",sum);
     }
     return 0;
