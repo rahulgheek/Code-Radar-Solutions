@@ -12,7 +12,7 @@ int main() {
     for(int j = 0;j<k;j++){
         temp = arr[a-1];
         for(int k = a-2;k>0;k--){
-            arr[a-1] = arr[a-2];
+            arr[k+1] = arr[k];
         }
         arr[0] = temp;
     }
