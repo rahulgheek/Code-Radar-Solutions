@@ -11,6 +11,7 @@ int main() {
             a = 1;
             break;
         }
+        i++;
     }
     printf("%d",a);
     return 0;
