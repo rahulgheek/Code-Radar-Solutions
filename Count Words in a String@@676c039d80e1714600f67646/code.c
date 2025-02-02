@@ -6,7 +6,7 @@ int main() {
     int i = 0,count = 1;
 
     while(str[i]!='\0'){
-        if(str[i]==' ' && str[i+1]!=' '){
+        if(str[i]!=' ' && str[i+1]=' '){
             count++;
         }
         i++;
