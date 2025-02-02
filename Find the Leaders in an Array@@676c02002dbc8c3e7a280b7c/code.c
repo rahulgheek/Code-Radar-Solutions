@@ -12,7 +12,7 @@ int main() {
         count = 0;
         c = 0;
         for(int k = 1;k<n;k++){
-            if(arr[j] == arr[k]){
+            if(arr[j] > arr[k]){
                 c++;
             }
             count++;
