@@ -8,7 +8,7 @@ int main() {
         if(str[i] == 'a' || str[i] == 'e' || str[i]=='i'||str[i]=='o'||str[i]=='u'||str[i]==' '){
             printf("%c",str[i]);
         }
-        k++;
+        i++;
     }
     return 0;
 }
