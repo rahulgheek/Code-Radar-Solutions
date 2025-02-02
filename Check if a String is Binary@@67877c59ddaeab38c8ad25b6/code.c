@@ -2,17 +2,19 @@
 
 int main() {
     char str[100];
-    char a[4] = "Yes";
+    int a = 0;
     scanf("%[^\n]%*c",&str);
 
     int i = 0;
     while(str[i]!='\0'){
         if(str[i]!='0' || str[i]!='1'){
-            a = "No";
+            a = 1;
             break;
         }
         i++;
     }
-    printf("%s",a);
+    if(a){
+        printf("No");
+    }else{printf("Yes");}
     return 0;
 }
