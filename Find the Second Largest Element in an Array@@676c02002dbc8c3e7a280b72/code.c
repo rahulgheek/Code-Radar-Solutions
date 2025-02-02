@@ -16,7 +16,7 @@ int main() {
     }
 
     for(int k = 0;k<a;k++){
-        if(arr[k]>secondlarge && arr[k]!=large){
+        if(arr[k]>secondlarge){
             arr[k]=secondlarge;
         }
     }
