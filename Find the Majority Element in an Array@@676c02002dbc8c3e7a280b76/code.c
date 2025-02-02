@@ -11,15 +11,16 @@ int main() {
     for(int j = 0;j<a;j++){
         int c = 0;
         for(int k = 0;k<a;k++){
-            if(arr[j]==arr[k] && c>count){
-                largest = arr[j];
-                count = c;
+            if(arr[j]==arr[k]){
+                c++;
             }
-            if(c == count){
-                largest = -1;
-                break;
-            }
-            c++;
+        }
+        if(c == count){
+            largest = -1;
+            break;
+        }
+        else if(c>count){
+            count = c;
         }
     }
 
