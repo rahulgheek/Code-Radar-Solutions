@@ -15,6 +15,11 @@ int main() {
                 largest = arr[j];
                 count = c;
             }
+            if(c == count){
+                largest = -1;
+                break;
+                break;
+            }
             c++;
         }
     }
