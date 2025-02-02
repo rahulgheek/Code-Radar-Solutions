@@ -6,9 +6,10 @@ int main() {
     int i = 0;
 
     while(str[i]!='\0'){
-        if(str[i]==' '){
-            str[i] = '';
+        if(str[i]!=' '){
+            printf("%c",str[i]);
         }
+
         i++;
     }
 
