@@ -7,13 +7,12 @@ int main() {
 
     int i = 0;
     while(str[i]!='\0'){
-        if(str[i]!=0 || str[i]!=1){
-            a = 1;
-            break;
+        if(str[i]==0 || str[i]==1){
+            a++;
         }
         i++;
     }
-    if(a){
+    if(a==i){
         printf("No");
     }else{printf("Yes");}
     return 0;
