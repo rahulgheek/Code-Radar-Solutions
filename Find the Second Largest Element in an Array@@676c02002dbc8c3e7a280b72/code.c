@@ -15,6 +15,11 @@ int main() {
         }
     }
 
-    printf("%d",large);
+    for(int k = 0;k<a;k++){
+        if(arr[k]>secondlarge && arr[k]!=large){
+            arr[k]=secondlarge;
+        }
+    }
+    printf("%d",secondlarge);
     return 0;
 }
