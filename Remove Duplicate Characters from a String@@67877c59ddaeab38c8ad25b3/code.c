@@ -13,7 +13,7 @@ int main() {
     }
     
     int k = 0;
-    while(str[k]!=0){
+    while(str[k]!='\0'){
         if(str[k]!=' '){
             printf("%c",str[k]);
         }
