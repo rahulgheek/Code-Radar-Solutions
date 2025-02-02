@@ -16,8 +16,8 @@ int main() {
     }
 
     for(int k = 0;k<a;k++){
-        if(arr[k]>secondlarge){
-            arr[k]=secondlarge;
+        if(arr[k]>secondlarge && arr[k]!=large){
+            secondlarge = arr[k];
         }
     }
     printf("%d",secondlarge);
