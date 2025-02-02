@@ -8,10 +8,11 @@ int main() {
     int i = 0;
     while(str[i]!='\0'){
         if(str[i]=='0' || str[i]=='1'){
-            a++;
+            a=1;
+            break;
         }
         i++;
     }
-    printf("%d %d",a,i);
+    printf("%d",a);
     return 0;
 }
