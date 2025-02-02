@@ -13,7 +13,6 @@ int main() {
         for(int k = j+1;k<n;k++){
             if(arr[j] < arr[k]){
                 c++;
-                break;
             }
         }
         if(c == 0){
