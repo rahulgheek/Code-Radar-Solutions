@@ -12,8 +12,6 @@ int main() {
         }
         i++;
     }
-    if(a==i){
-        printf("Yes");
-    }else{printf("No");}
+    printf("%d %d",a,i)
     return 0;
 }
