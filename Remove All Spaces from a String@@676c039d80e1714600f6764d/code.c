@@ -5,6 +5,8 @@ int main() {
     scanf("%[^\n]%*c",&str);
     int i = 0;
 
-    
+    while(str[i]!=0){
+        
+    }
     return 0;
 }
