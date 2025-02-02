@@ -2,6 +2,6 @@
 
 int main() {
     char a='a',b='b',c[3]=a+b;
-    printf("%c",c);
+    printf("%s",c);
     return 0;
 }
