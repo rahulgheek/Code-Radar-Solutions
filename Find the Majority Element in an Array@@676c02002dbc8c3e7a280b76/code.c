@@ -19,7 +19,7 @@ int main() {
         }
     }
 
-    printf("%d",count);
+    printf("%d",largest);
 
     return 0;
 }
