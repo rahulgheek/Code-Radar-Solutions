@@ -9,7 +9,7 @@ int main() {
     }
 
     for(int i = 0;i<c;i++){
-        if(str[i]!=str[c-i]){
+        if(str[i]!=str[c-i-1]){
             pal = 0;
         }
     }
