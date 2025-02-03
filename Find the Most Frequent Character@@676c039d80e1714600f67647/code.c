@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main() {
-    char str[100],present;
+    char str[100],present='z';
     scanf("%[^\n]%*c",&str);
 
     int j,i = 0,count,large = 0;
