@@ -6,7 +6,7 @@ int sumofnum(int num){
         sum += num%10;
         num /= 10;
     }
-    return num;
+    return sum;
 }
 
 int main() {
