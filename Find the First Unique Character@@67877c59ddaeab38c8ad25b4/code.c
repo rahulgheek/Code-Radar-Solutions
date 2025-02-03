@@ -18,6 +18,9 @@ int main() {
             a = str[i];
             break;
         }
+        else{
+            a = '-';
+        }
         i++;
     }
 
