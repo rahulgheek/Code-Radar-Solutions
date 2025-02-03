@@ -15,7 +15,7 @@ int main() {
         }
     }
     if(temp == -1){
-        temp = arr[a];
+        temp = arr[a-1];
     }
 
     printf("%d",temp);
