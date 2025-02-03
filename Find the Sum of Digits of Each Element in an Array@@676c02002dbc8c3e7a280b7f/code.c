@@ -1,6 +1,13 @@
 #include <stdio.h>
 
-
+int sumofnum(int num){
+    int sum = 0;
+    while(sum!=0){
+        sum += num%10;
+        num /= 10;
+    }
+    return num;
+}
 
 int main() {
     int n;
@@ -11,16 +18,7 @@ int main() {
     }
 
     for(int j = 0;j<n;j++){
-        int sum = 0;
-        if(arr[j]==0){
-            printf("%d ",0);
-        }
-        else{
-        while(arr[j] != 0){
-            sum += arr[j] %10;
-            arr[j] /=10;
-        }}
-        printf("%d ",sum);
+        printf("%d ",sumofnum(arr[j]));
     }
     return 0;
 }
