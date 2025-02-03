@@ -4,11 +4,11 @@ int main() {
     int a,temp=-1;
     scanf("%d",&a);
     int arr[a+1];
-    for(int i = 0;i<=a+1;i++){
+    for(int i = 0;i<=a;i++){
         scanf("%d",&arr[i]);
     }
 
-    for(int j = 0;j<a;j++){
+    for(int j = 0;j<=a;j++){
         if(arr[j]>arr[j-1] && arr[j]>arr[j+1]){
             temp = arr[j];
             break;
