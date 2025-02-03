@@ -9,9 +9,6 @@ int main() {
         j=0;
         count = 0;
         while(str[j]!='\0'){
-            if(str[i]==' '){
-                continue;
-            }
             if(str[i]==str[j]){
                 count++;
             }
