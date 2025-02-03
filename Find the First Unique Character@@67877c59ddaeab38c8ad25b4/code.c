@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main() {
-    char str[100];
+    char str[100],a;
     scanf("%[^/n]%*c",&str);
 
     int i = 0,count,j=0;
@@ -14,10 +14,12 @@ int main() {
             j++;
         }
         if(count == 1){
-            printf("%c",str[i]);
+            a = str[i];
             break;
         }
         i++;
     }
+
+    printf("%c",a);
     return 0;
 }
