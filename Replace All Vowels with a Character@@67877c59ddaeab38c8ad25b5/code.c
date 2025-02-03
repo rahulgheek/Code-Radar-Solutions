@@ -2,7 +2,7 @@
 
 int main() {
     char str[100],symbol;
-    scanf("%[^\n]%*c",&str);
+    scanf("%[^\n]%*c ",&str);
     scanf(" %c",&symbol);
     int i = 0;
     while(str[i]!='\0'){
