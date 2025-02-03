@@ -14,6 +14,9 @@ int main() {
             break;
         }
     }
+    if(temp == -1){
+        temp = arr[a];
+    }
 
     printf("%d",temp);
     return 0;
