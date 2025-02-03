@@ -22,7 +22,7 @@ int main() {
         i++;
     }
     if(count==1){
-        present = str[i];
+        present = str[i-1];
     }
 
     printf("%c",present);
