@@ -17,7 +17,6 @@ int main() {
         }
         if(c == count){
             largest = -1;
-            break;
         }
         else if(c>count){
             count = c;
