@@ -2,7 +2,7 @@
 
 int sumofnum(int num){
     int sum = 0;
-    while(sum!=0){
+    while(num!=0){
         sum += num%10;
         num /= 10;
     }
