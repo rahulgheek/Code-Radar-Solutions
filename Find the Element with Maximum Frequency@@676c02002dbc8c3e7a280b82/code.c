@@ -16,14 +16,14 @@ int main() {
                 count++;
                 present = arr[j];
             }
-            if(large<count){
-                present = output;
-                large = count;
-            }
+            
+        }
+        if(large<count){
+            large = count;
+            output = present;
         }
     }
 
     printf("%d",output);
-
     return 0;
 }
