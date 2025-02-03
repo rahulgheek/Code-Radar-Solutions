@@ -14,7 +14,9 @@ int main() {
             large = arr[j];
         }
     }
-
+    if(large%2!=0){
+        large = -1;
+    }
     printf("%d",large);
     return 0;
 }
