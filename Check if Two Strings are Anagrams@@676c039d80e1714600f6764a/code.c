@@ -7,6 +7,5 @@ int main() {
     scanf("%[^\n]%*c   %[^\n]%*c",&str,&str2);
     int x = strncmp(str,str2,6);
 
-    print("%d",x);
     return 0;
 }
