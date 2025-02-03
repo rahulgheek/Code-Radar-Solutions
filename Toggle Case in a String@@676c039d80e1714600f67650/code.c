@@ -9,7 +9,7 @@ int main() {
         if(str[i]>='a' && str[i]<='z'){
             printf("%c",str[i] - 32);
         }
-        else if(str[i]>'A' && str[i]<='Z'){
+        else if(str[i]>='A' && str[i]<='Z'){
             printf("%c",str[i]+32);
         }
         else{
