@@ -22,7 +22,7 @@ int main() {
         i++;
     }
     if(large==1){
-        present = str[i-1];
+        present = str[j-1];
     }
 
     printf("%c",present);
