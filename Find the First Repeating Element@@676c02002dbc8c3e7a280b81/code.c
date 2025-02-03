@@ -18,6 +18,9 @@ int main() {
             }
         }
     }
+    if(arr1[0] > 100000){
+        arr1[0] = -1;
+    }
     printf("%d",arr1[0]);
     return 0;
 }
