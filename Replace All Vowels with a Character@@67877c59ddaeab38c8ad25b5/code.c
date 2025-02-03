@@ -10,6 +10,7 @@ int main() {
             str[i] = symbol;
         }
         printf("%c",str[i]);
+        i++;
     }
 
     return 0;
