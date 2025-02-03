@@ -14,7 +14,7 @@ int main() {
             }
             j++;
         }
-        if(count>=large){
+        if(count>=large && present > str[i]){
             large = count;
             present = str[i];
         }
