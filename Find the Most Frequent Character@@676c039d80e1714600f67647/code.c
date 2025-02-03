@@ -21,7 +21,7 @@ int main() {
         }
         i++;
     }
-    if(count==1){
+    if(large==1){
         present = str[i-1];
     }
 
