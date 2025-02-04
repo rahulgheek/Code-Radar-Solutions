@@ -13,7 +13,5 @@ int main() {
         sum+=y;
     }
 
-    printf("%d",sum);
-
     return 0;
 }
