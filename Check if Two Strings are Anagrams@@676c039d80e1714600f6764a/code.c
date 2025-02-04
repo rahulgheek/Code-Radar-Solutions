@@ -7,7 +7,13 @@ int main() {
     scanf("%[^\n]%*c   %[^\n]%*c",&str,&str2);
     int x = strlen(str);
     
-    printf("%d",x);
+    int i = 0,y,sum=0;
+    while(i!='\0'){
+        y = strncmp(str[i],str2[i],1);
+        sum+=y;
+    }
+
+    printf("%d",sum);
 
     return 0;
 }
