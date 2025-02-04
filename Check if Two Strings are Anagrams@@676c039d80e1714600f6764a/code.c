@@ -12,5 +12,6 @@ int main() {
         y = strncmp("hi","hello",1);
         i++;
     }
+    print("%d",y);
     return 0;
 }
