@@ -8,11 +8,10 @@ int main() {
     int x = strlen(str);
     
     int i = 0,y,sum=0;
-    while(i!='\0'){
+    while(str[i]!='\0'){
         y = strncmp(str[i],str2[i],1);
         sum+=y;
         i++;
     }
-
     return 0;
 }
