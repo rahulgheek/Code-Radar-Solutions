@@ -17,6 +17,12 @@ int main() {
             j = i - x;
             reverse(x,j,str);
             x = 0;
+            if(i==z){
+
+            }
+            else{
+                printf(" ");
+            }
         }
         x++;
         i++;
