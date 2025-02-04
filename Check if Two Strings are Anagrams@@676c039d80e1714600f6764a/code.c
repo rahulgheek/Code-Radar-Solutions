@@ -11,6 +11,7 @@ int main() {
     while(i!='\0'){
         y = strncmp(str[i],str2[i],1);
         sum+=y;
+        i++;
     }
 
     return 0;
