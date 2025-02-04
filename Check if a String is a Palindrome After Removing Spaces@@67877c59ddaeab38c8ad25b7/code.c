@@ -9,17 +9,14 @@ int main() {
         x++;
     }
 
-    // int i = 0,y = 1;
-    // while(i<x){
-    //     if(str[i]==' '){
-    //         continue;
-    //     }
-    //     else if(str[i] != str[x-i-1]){
-    //         y = 0;
-    //         break;
-    //     }
-    //     i++;
-    // }
+    int i = 0,y = 1;
+    while(str[i]!='\0'){
+        else if(str[i] != str[x-i-1]){
+            y = 0;
+            break;
+        }
+        i++;
+    }
     printf("%d",x);
     return 0;
 }
