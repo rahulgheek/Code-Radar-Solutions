@@ -12,5 +12,7 @@ int main() {
         y = strncmp("hi","hello",1);
         i++;
     }
+
+    printf("%d",y);
     return 0;
 }
