@@ -10,6 +10,7 @@ int main() {
         if(str[i] == ' ' && large < x){
             large = x;
             j = i-x;
+            x = 0;
         }
         x++;
         i++;
