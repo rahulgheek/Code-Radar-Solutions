@@ -5,6 +5,7 @@ void reverse(int n,int j,char Str[100]){
     for(int i = j+n-1;i>=j;i--){
         printf("%c",Str[i]);
     }
+    printf(" ");
 }
 int main() {
     char str[100];
@@ -16,7 +17,6 @@ int main() {
         if(str[i]==' ' || str[i] == '\0'){
             j = i - x;
             reverse(x,j,str);
-            printf(" ");
             x = 0;
         }
         x++;
