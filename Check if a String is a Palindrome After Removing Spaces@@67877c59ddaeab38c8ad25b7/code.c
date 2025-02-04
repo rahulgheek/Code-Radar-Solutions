@@ -11,7 +11,7 @@ int main() {
 
     int i = 0,y = 1;
     while(str[i]!='\0'){
-        else if(str[i] != str[x-i-1]){
+        if(str[i] != str[x-i-1]){
             y = 0;
             break;
         }
