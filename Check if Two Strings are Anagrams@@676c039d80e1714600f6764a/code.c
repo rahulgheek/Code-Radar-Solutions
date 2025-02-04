@@ -9,12 +9,15 @@ int main() {
     
     int i = 0,y,sum=0;
     char STR[2];
+    char STR2[2];
     while(i<x){
         STR[0] = str[i];
-        y = strncmp(STR,"i",1);
+        STR2[0] = str2[i];
+        y = strncmp(STR,STR2,1);
+        sum+=y;
         i++;
     }
 
-    printf("%d",y);
+    printf("%d",sum);
     return 0;
 }
