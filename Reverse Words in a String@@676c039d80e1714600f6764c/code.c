@@ -6,7 +6,7 @@ int main() {
 
     int x = 0;i = 0;
     while(str[i]!='\0'){
-        if(str[i]==' '){
+        if(str[i]=='a'){
             printf("%d ",x);
             x = 0;
         }
