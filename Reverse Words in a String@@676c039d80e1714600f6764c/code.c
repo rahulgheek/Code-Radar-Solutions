@@ -9,10 +9,10 @@ void reverse(int n,int j,char Str[100]){
 int main() {
     char str[100];
     scanf("%[^\n]%*c",&str);
-    int x = strlen(x);
+    int z = strlen(x);
 
     int x = 0,i = 0,j = 0,k;
-    while(i<x){
+    while(i<z){
         if(str[i]==' '){
             j = i - x;
             reverse(x,j,str);
