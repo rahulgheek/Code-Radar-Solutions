@@ -14,6 +14,7 @@ int main() {
         if(str[i]==' '){
             j = i - x;
             reverse(x,j,str);
+            printf(" ");
             x = 0;
         }
         x++;
