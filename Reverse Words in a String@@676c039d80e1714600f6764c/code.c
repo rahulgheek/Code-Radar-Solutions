@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 void reverse(int n,int j,char Str[100]){
-    for(int i = j+n;i>j;i--){
+    for(int i = j+n-1;i>h;i--){
         printf("%c",Str[i]);
     }
 }
