@@ -9,7 +9,7 @@ int main() {
     
     int i = 0,y,sum=0;
     while(i<x){
-        y = strncmp("hi","hello",1);
+        y = strncmp('h','h',1);
         i++;
     }
 
