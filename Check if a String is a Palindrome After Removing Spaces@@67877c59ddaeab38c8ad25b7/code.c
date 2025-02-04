@@ -17,6 +17,6 @@ int main() {
         }
         i++;
     }
-    printf("%d",x);
+    printf("%d",y);
     return 0;
 }
