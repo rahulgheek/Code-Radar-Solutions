@@ -1,11 +1,15 @@
 #include <stdio.h>
-#include <string.h>
 
 int main() {
     char str[100];
     scanf("%[^\n]%*c",&str);
 
-    int i = 0,x=strlen(str),y = 1;
+    int x = 0;
+    while(j!='\0'){
+        x++;
+    }
+
+    int i = 0,y = 1;
     while(i<x){
         if(str[i]==' '){
             continue;
