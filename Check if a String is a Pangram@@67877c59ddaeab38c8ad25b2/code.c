@@ -20,7 +20,6 @@ int main() {
         temp = str[0];
         str[0] = small;
         str[j] = temp;
-
         i++;
     }
 
