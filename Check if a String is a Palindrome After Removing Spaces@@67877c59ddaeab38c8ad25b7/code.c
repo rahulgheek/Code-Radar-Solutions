@@ -14,6 +14,7 @@ int main() {
             y = 0;
             break;
         }
+        i++;
     }
     printf("%d",y);
     return 0;
