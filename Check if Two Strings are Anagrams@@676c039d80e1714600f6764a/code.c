@@ -8,8 +8,10 @@ int main() {
     int x = strlen(str);
     
     int i = 0,y,sum=0;
+    char STR[2];
     while(i<x){
-        y = strncmp("i","i",1);
+        STR[0] = str[i];
+        y = strncmp(STR,"i",1);
         i++;
     }
 
