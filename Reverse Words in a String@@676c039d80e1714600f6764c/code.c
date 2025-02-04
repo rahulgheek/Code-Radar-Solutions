@@ -13,7 +13,7 @@ int main() {
 
     int x = 0,i = 0,j = 0,k;
     while(i<=z){
-        if(str[i]==' '){
+        if(str[i]==' ' || str[i] == '\0'){
             j = i - x;
             reverse(x,j,str);
             printf(" ");
