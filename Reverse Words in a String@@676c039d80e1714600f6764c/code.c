@@ -12,7 +12,7 @@ int main() {
     int x = strlen(x);
 
     int x = 0,i = 0,j = 0,k;
-    while(i<=x){
+    while(i<x){
         if(str[i]==' '){
             j = i - x;
             reverse(x,j,str);
