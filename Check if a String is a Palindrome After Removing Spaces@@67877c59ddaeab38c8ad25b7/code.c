@@ -5,7 +5,7 @@ int main() {
     scanf("%[^\n]%*c",&str);
 
     int x = 0;
-    while(j!='\0'){
+    while(x!='\0'){
         x++;
     }
 
