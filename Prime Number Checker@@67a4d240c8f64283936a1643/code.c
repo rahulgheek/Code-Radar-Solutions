@@ -1,7 +1,6 @@
 #include <stdio.h>
 
 int isprime(int n){
-    int flag = 1;
     if(n <= 1){
         return 0;
     }
@@ -22,8 +21,5 @@ int main() {
         scanf("%d",&arr[j]);
     }
 
-    for(int k = 0;k<a;k++){
-        printf("%d\n",arr[k]);
-    }
     return 0;
 }
