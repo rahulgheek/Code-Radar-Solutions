@@ -2,7 +2,7 @@
 #include <string.h>
 
 void reverse(int n,int j,char Str[100]){
-    for(int i = j+n-1;i>=j-1;i--){
+    for(int i = j+n-1;i>=j+1;i--){
         printf("%c",Str[i]);
     }
 }
