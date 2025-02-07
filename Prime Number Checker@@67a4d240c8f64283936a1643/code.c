@@ -23,7 +23,7 @@ int main() {
     }
 
     for(int k = 0;k<a;k++){
-        printf("%d\n",isprime(arr[k]));
+        printf("%d\n",arr[k]);
     }
     return 0;
 }
