@@ -9,7 +9,7 @@ int main() {
         scanf("%d ",&arr[i]);
     }
 
-    for(int j = n-1;j>=0;j--){
+    for(int j = n-1;j>0;j--){
         if(arr[j]>arr[j-1]){
             arr[j-1] = arr[j];
         }
