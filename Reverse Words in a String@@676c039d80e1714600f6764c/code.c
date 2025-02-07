@@ -21,7 +21,7 @@ int main() {
 
             }
             else{
-                printf(" ");
+                printf("");
             }
         }
         x++;
