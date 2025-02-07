@@ -1,14 +1,16 @@
 #include <stdio.h>
 
 void ispalidrome(int num){
-    char str[10],str2[100];
+    char str[10];
     int i = 0;
     while(num!=0){
         str[i] = num%10;
         num /= 10;
         i++;
     }
-    printf("%s",str2);
+
+    int str2 = atoi(str);
+    printf("%d",str2);
 }
 
 int main() {
