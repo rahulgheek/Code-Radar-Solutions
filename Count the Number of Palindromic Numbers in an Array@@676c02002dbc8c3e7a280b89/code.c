@@ -1,19 +1,15 @@
 #include <stdio.h>
 
-int ispalidrome(int num){
-    char str[10];
+char ispalidrome(int num){
+    char str[10],str2[100];
     int i = 0;
     while(num!=0){
         str[i] = num%10;
         num /= 10;
         i++;
     }
-    if(str[0] == num){
-        return 1;
-    }
-    else{
-        return 0;
-    }
+    sprintf(str2,"%d",num);
+    
 }
 
 int main() {
