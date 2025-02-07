@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main() {
-    int a,largest = -1,count=-2;
+    int a,largest = -1,count=0;
     scanf("%d",&a);
     int arr[a];
     for(int i = 0;i<a;i++){
@@ -14,6 +14,7 @@ int main() {
             if(arr[j]==arr[k]){
                 c++;
             }
+            count++;
         }
         if(c == count){
             largest = -1;
