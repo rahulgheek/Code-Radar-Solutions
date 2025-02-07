@@ -10,10 +10,10 @@ int main() {
     }
 
     for(int j = a-1;j>0;j--){
-        int temp = arr[j-1];
+        int temp = arr[j];
         arr[j-1] = arr[j];
         if(arr[j]>temp){
-            temp = arr[j];
+            temp = arr[j-1];
         }
     }
 
