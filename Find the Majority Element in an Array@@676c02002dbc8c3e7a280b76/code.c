@@ -19,10 +19,7 @@ int main() {
         if(c == count){
             largest = arr[j];
         }
-        else if(c>count){
-            count = c;
-            largest = arr[j]
-        }
+        
     }
 
     printf("%d",largest);
