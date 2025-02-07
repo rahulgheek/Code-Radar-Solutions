@@ -22,7 +22,8 @@ int main() {
     }
 
     for(int j = 0;j<a;j++){
-        printf("%d ",ispalidrome(arr[j]));
+        ispalidrome(arr[j]);
+        printf("\n");
     }
     return 0;
 }
