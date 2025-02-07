@@ -9,9 +9,8 @@ void ispalidrome(int num){
         num /= 10;
         i++;
     }
-
     int str2 = atoi(str);
-    printf("%d",str2);
+    printf("%d",str[0]);
 }
 
 int main() {
