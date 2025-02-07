@@ -9,12 +9,14 @@ int main() {
         scanf("%d ",&arr[i]);
     }
 
-    for(int j = a-2;j>=0;j--){
-        if(arr[j+1]>arr[j]){
-            arr[j] = arr[j+1];
+    for(int j = a-1;j>0;j--){
+        int temp = arr[j-1];
+        arr[j-1] = arr[j];
+        if(arr[j]>arr[j-1]){
+            temp = arr[j-1];
         }
     }
-    arr[a-1] = -1;
+    arr
 
     for(int m = 0;m<a;m++){
         printf("%d ",arr[m]);
