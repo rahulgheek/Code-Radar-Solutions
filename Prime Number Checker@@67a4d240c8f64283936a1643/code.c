@@ -1,11 +1,12 @@
 int isPrime(int n){
-    int flag = 0;
+    int flag = 1;
     if(n<=1){
-        return flag;
+        return 0;
     }
     for(int i = 2;i<n;i++){
         if(n%i==0){
-            flag = 0;
+            flag = 1;
+            break;
         }
     }
     return flag;
