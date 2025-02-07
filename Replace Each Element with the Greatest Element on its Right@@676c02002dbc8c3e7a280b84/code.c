@@ -11,9 +11,7 @@ int main() {
 
     for(int j = a-1;j>0;j--){
         if(arr[j]>arr[j-1]){
-            int temp = arr[j];
             arr[j-1] = arr[j];
-            arr[j-2] = temp;
         }
     }
 
