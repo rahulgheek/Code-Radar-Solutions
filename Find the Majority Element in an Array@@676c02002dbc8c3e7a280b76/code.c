@@ -21,6 +21,7 @@ int main() {
         }
         else if(c>count){
             count = c;
+            largest = arr[j]
         }
     }
 
