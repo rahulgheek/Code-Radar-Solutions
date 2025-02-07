@@ -17,7 +17,7 @@ int main() {
             count++;
         }
         if(c == count){
-            largest = -1;
+            largest = arr[j];
         }
         else if(c>count){
             count = c;
