@@ -1,12 +1,14 @@
 #include <stdio.h>
 
 int ispalidrome(int num){
-    int sum = 0;
+    char str[10];
+    int i = 0;
     while(num!=0){
-        sum += num%10;
+        str[i] = num%10;
         num /= 10;
+        i++;
     }
-    return sum;
+    return 0;
 }
 
 int main() {
