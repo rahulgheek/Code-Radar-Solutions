@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-char ispalidrome(int num){
+int ispalidrome(int num){
     char str[10];
     int i = 0;
     while(num!=0){
@@ -8,7 +8,12 @@ char ispalidrome(int num){
         num /= 10;
         i++;
     }
-    return str[0];
+    if(str == num){
+        return 1;
+    }
+    else{
+        return 0;
+    }
 }
 
 int main() {
