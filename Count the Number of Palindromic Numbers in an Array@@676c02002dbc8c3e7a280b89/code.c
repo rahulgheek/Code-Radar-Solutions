@@ -9,7 +9,7 @@ char ispalidrome(int num){
         i++;
     }
     sprintf(str2,"%d",num);
-    return str2[1];
+    return str2[3];
 }
 
 int main() {
