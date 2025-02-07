@@ -21,6 +21,9 @@ int main() {
             secondlarge = arr[k];
         }
     }
+    if(secondlarge == -100){
+        secondlarge = -1;
+    }
     printf("%d",secondlarge);
     return 0;
 }
