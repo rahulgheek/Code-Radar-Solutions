@@ -14,6 +14,7 @@ int main() {
             arr[j-1] = arr[j];
         }
     }
+    arr[a-1] = -1;
 
     for(int m = 0;m<a;m++){
         printf("%d ",arr[m]);
