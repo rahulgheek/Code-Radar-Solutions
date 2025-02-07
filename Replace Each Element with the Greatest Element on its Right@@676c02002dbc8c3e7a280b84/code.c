@@ -16,7 +16,6 @@ int main() {
             temp = arr[j];
         }
     }
-    arr
 
     for(int m = 0;m<a;m++){
         printf("%d ",arr[m]);
