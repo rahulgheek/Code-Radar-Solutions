@@ -8,10 +8,14 @@ int main() {
     for(int i = 0;i<a;i++){
         scanf("%d ",&arr[i]);
     }
+    int num = 0;
 
     for(int j = a-1;j>0;j--){
-        if(arr[j]>arr[j-1]){
+        if(num = 1){
             arr[j-1] = arr[j];
+        }
+        if(arr[j]>arr[j-1]){
+            num = 1;
         }
     }
 
