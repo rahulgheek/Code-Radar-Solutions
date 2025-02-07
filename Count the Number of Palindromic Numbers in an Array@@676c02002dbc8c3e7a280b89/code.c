@@ -10,7 +10,7 @@ void ispalidrome(int num){
         i++;
     }
     int str2 = atoi(str);
-    printf("%d",str[0]);
+    printf("%d",str2);
 }
 
 int main() {
