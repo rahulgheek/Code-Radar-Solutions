@@ -8,7 +8,6 @@ void ispalidrome(int num){
         num /= 10;
         i++;
     }
-    sprintf(str2,"%d",num);
     printf("%s",str2);
 }
 
