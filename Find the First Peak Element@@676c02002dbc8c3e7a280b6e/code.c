@@ -14,7 +14,7 @@ int main() {
             break;
         }
     }
-    if(temp == -1 && arr[a-1]<arr[a-2]){
+    if(temp == -1 && arr[a-1]>arr[a-2]){
         temp = arr[a-1];
     }
 
