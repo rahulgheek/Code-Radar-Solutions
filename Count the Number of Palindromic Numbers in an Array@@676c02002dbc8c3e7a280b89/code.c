@@ -8,7 +8,7 @@ int ispalidrome(int num){
         num /= 10;
         i++;
     }
-    return 0;
+    return str;
 }
 
 int main() {
