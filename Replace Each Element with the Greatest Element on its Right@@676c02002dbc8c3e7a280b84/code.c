@@ -9,9 +9,9 @@ int main() {
         scanf("%d ",&arr[i]);
     }
 
-    for(int j = a-1;j>0;j--){
+    for(int j = a-1;j>=0;j--){
         if(arr[j+1]>arr[j]){
-            arr[j1] = arr[j+1];
+            arr[j] = arr[j+1];
         }
     }
     arr[a-1] = -1;
