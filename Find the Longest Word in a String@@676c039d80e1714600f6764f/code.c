@@ -6,7 +6,7 @@ int main() {
 
     int i = 0,x = 0,large = 0,j = 0;
     while(str[i] != '\0'){
-        if(str[i] == ' ' || str[i+1] == '\0'){
+        if(str[i] == ' '){
             if(large<x){
             large = x;
             j = i-x;}
