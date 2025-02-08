@@ -16,6 +16,7 @@ int main() {
     int i = 0;
     while(str2[i] != '\0'){
         printf("%c",str2[i]);
+        i++;
     }
     
     return 0;
