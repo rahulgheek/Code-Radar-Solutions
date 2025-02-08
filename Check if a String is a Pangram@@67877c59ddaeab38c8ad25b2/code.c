@@ -2,27 +2,27 @@
 
 int main() {
     char str[200];
+    char str2[30] = "abcdefghijklmnopqrstuvwxyz";
     scanf("%[^\n]%*c",&str);
 
-    int i = 0,j,y = 0;
-    char temp,small;
-
+    int i = 0,temp,flag = 0;
     while(str[i]!=0){
-        j = 0;
-        small = 'z';
-        while(str[j]!=0){
-            if(str[j]<small){
-                small = str[j];
-                y = j;
+        int j = 0;
+        while(str2[j]!=0){
+            if(str[i]==str2[j]){
+                flag = 1;
+                break;
             }
-            j++;
         }
-        temp = str[0];
-        str[0] = small;
-        str[j] = temp;
-        i++;
     }
 
-    printf("%s",str);
+    if(flag){
+        printf("Yes");
+    }
+    else{
+        printf("No");
+    }
+
+    
     return 0;
 }
