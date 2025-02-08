@@ -16,7 +16,7 @@ int main() {
 
     int j = 0,flag = 1;
     while(j<x-count){
-        if(str2[j] != tolower(str2[x-count-j-1])){
+        if(tolower(str2[j]) != tolower(str2[x-count-j-1])){
             flag = 0;
             break;
         }
