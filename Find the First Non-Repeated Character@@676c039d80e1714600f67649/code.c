@@ -11,7 +11,6 @@ int main() {
             if(str[i]!=str[j] && i!=j){
                 a = str[j];
                 break;
-                break;
             }
             j++;
         }
