@@ -13,7 +13,9 @@ int main() {
                 flag = 1;
                 break;
             }
+            j++;
         }
+        i++;
     }
 
     if(flag){
