@@ -10,8 +10,8 @@ int main() {
             large = x;
             j = i-x;
             x = 0;
-        }
-        x++;
+        }else{
+        x++;}
         i++;
     }
 
