@@ -21,6 +21,7 @@ int main() {
         }
         j++;
     }
-    printf("%d",flag);
+    if(flag) printf("Yes");
+    else printf("No");
     return 0;
 }
