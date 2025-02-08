@@ -13,7 +13,13 @@ int main() {
                 flag = 1;
                 break;
             }
+            else{
+                flag = 0;
+            }
             j++;
+        }
+        if(flag == 0){
+            break;
         }
         i++;
     }
