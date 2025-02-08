@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <ctype.h>
 
 int main() {
     char str[200],str2[200];
@@ -15,7 +16,7 @@ int main() {
 
     int j = 0,flag = 1;
     while(j<x-count){
-        if(str2[j] != str2[x-count-j-1]){
+        if(str2[j] != tolower(str2[x-count-j-1])){
             flag = 0;
             break;
         }
