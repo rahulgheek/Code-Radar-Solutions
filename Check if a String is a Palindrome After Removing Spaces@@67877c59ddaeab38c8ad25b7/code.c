@@ -6,20 +6,17 @@ int main() {
 
     int x = 0,count = 0;
     while(str[x]!='\0'){
-        if(str[x]==' '){
+        if(str[x] == ' '){
             count++;
-        }
-        else{
-        str2[x-count] = str[x];
-        }
+        }else{
+        str2[x-count] = str[x];}
         x++;
     }
 
-    int i = 0;
-    while(str2[i] != '\0'){
-        printf("%c",str2[i]);
-        i++;
+    int j = 0;
+    while(j<x-count){
+        printf("%c",str2[j]);
+        j++;
     }
-
     return 0;
 }
