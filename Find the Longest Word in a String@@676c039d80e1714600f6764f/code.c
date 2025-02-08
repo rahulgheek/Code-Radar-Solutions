@@ -9,7 +9,7 @@ int main() {
         if(str[i] == ' ' || str[i+1] == '\0'){
             if(large<x){
             large = x;
-            j = i-x;}
+            j = i-x+1;}
             x = 0;
         }else{
         x++;}
