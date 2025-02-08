@@ -15,7 +15,6 @@ int main() {
             if(large<x){
                 large = x;
                 j = i-x;}
-                x = 0;
         }
         }else{
         x++;}
