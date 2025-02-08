@@ -8,9 +8,10 @@ int main() {
     while(str[x]!='\0'){
         if(str[x]==' '){
             count++;
-            continue;
         }
-        str2[x] = str[x-count];
+        else{
+        str2[x-count] = str[x];
+        }
         x++;
     }
 
