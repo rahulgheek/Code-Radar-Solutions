@@ -9,7 +9,9 @@ int main() {
         str2[x] = str[x];
         x++;
     }
-
-    printf("%c",str2[1]);
+    int j = 0;
+    while(str2[j] == '\0'){
+        printf("%c",str2[j]);
+    }
     return 0;
 }
