@@ -7,12 +7,9 @@ int main() {
     int x = 0;
     while(str[x]!='\0'){
         str2[x] = str[x];
+        printf("%c",str2[x]);
         x++;
     }
-    int j = 0;
-    while(str2[j] != '\0'){
-        printf("%c",str2[j]);
-        j++;
-    }
+    
     return 0;
 }
