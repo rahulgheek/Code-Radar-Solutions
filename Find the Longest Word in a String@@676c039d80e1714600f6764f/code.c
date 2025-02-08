@@ -14,9 +14,8 @@ int main() {
         else if(str[i+1] == '\0'){
             if(large<x){
                 large = x;
-                j = i-x;
+                j = i-x;}
                 x = 0;
-            }
         }
         }else{
         x++;}
