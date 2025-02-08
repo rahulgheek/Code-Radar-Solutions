@@ -8,7 +8,7 @@ int main() {
     while(str[i] != '\0'){
         if(str[i] == ' ' || str[i+1] == '\0'){
             if(large<x){
-            large = x+1;
+            large = x;
             j = i-x;}
             x = 0;
         }else{
