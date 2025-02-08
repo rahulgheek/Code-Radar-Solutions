@@ -6,9 +6,6 @@ int main() {
 
     int x = 0;
     while(str[x]!='\0'){
-        if(str[x]==' '){
-            continue;
-        }
         str2[x] = str[x];
         x++;
     }
