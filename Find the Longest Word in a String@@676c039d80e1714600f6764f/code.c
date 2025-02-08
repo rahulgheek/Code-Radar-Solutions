@@ -15,6 +15,8 @@ int main() {
         i++;
     }
 
-    printf("%d",large);
+    for(int k = 0;k<large;k++){
+        printf("%c",str[j+k]);
+    }
     return 0;
 }
