@@ -9,7 +9,7 @@ int main() {
     int i = 0,temp,flag = 0;
     while(str[i]!=0){
         int j = 0;
-        while(str2[j]!=0){
+        while(str[i]!=0){
             if(str[i]==str2[j] || str[i]==str3[j]){
                 flag = 1;
                 break;
