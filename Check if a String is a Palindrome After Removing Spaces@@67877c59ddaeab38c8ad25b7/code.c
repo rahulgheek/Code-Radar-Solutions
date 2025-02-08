@@ -8,6 +8,7 @@ int main() {
     while(str[x]!='\0'){
         if(str[x]==' '){
             count++;
+            continue;
         }
         str2[x] = str[x-count];
         x++;
@@ -18,6 +19,6 @@ int main() {
         printf("%c",str2[i]);
         i++;
     }
-    
+
     return 0;
 }
