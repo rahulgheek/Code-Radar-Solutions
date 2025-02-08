@@ -10,7 +10,7 @@ int main() {
             if(large<x){
             large = x;
             j = i-x;}
-            x = 0;
+            x = 0;}
         else if(str[i+1] == '\0'){
             if(large<x){
                 large = x;
