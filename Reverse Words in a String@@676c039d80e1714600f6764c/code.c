@@ -14,7 +14,7 @@ int main() {
     int x = 0,i = 0,j = 0,k;
     while(i<=z){
         if(str[i]==' ' || i == z){
-            j = i - x;
+            j = i - x+1;
             reverse(x,j,str);
             x = 0;
             if(i==z){
