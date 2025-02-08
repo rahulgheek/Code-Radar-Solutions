@@ -12,6 +12,7 @@ int main() {
     int j = 0;
     while(str2[j] == '\0'){
         printf("%c",str2[j]);
+        j++;
     }
     return 0;
 }
