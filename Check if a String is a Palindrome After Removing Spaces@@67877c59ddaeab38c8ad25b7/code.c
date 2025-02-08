@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main() {
-    char str[100],str2[100];
+    char str[200],str2[200];
     scanf("%[^\n]%*c",&str);
 
     int x = 0;
