@@ -10,6 +10,6 @@ int main() {
         x++;
     }
 
-    printf("%s",str2);
+    printf("%c",str2[1]);
     return 0;
 }
