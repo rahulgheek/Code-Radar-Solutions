@@ -13,7 +13,7 @@ int main() {
             x = 0;
         }
         
-        }else{
+        else{
         x++;}
         i++;
     }
