@@ -1,22 +1,18 @@
 #include <stdio.h>
 
 int main() {
-    char str[100];
+    char str[100],str2[100];
     scanf("%[^\n]%*c",&str);
 
     int x = 0;
     while(str[x]!='\0'){
+        if(str[x]==' '){
+            continue;
+        }
+        str2[x] = str[x];
         x++;
     }
 
-    int i = 0,y = 1;
-    while(str[i]!='\0'){
-        if(str[i] != str[x-i-1]){
-            y = 0;
-            break;
-        }
-        i++;
-    }
-    printf("%d",y);
+    printf("%s",str2);
     return 0;
 }
