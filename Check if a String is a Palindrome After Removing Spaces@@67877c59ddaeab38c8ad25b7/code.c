@@ -13,10 +13,14 @@ int main() {
         x++;
     }
 
-    int j = 0;
+    int j = 0,flag = 1;
     while(j<x-count){
-        printf("%c",str2[j]);
+        if(str2[j] != str2[x-count-j]){
+            flag = 0;
+            break;
+        }
         j++;
     }
+    printf("%d",flag);
     return 0;
 }
