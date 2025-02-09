@@ -22,5 +22,8 @@ int main() {
     if(str == str3){
         printf("Yes");
     }
+    else{
+        printf("No");
+    }
     return 0;
 }
