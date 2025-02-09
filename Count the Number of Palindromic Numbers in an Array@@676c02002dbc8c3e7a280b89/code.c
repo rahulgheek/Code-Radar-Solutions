@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 void ispalidrome(int num){
-    char str[10],;
+    char str[10];
     int i = 0;
     while(num!=0){
         str[i] = num%10;
