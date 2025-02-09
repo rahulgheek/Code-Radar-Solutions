@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <string.h>
 
 int main() {
     char str[50],str3[50];
@@ -18,8 +19,12 @@ int main() {
             str[j] = str[j-1];
         }
         str[0] = temp;
-        printf("%s %s\n",str,str3);
+        if(strcmp(str,str3)){
+            flag = 1;
+        }
     }
+
+    printf("%d",flag);
     
 
     return 0;
