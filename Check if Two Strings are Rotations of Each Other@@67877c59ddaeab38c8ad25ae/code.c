@@ -24,7 +24,7 @@ int main() {
         }
     }
 
-    printf("%d",flag);
+    printf("%d",strcmp("Hello","Yo"));
     
 
     return 0;
