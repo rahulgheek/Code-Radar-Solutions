@@ -30,7 +30,7 @@ int main() {
     }
 
     for(int j = 0;j<a;j++){
-        
+        printf("%d",ispalidrome(arr[j]));
     }
 
     return 0;
