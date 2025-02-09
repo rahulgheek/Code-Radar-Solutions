@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-void ispalidrome(int num){
+bool ispalidrome(int num){
     char str[10];
     int i = 0;
     while(num!=0){
