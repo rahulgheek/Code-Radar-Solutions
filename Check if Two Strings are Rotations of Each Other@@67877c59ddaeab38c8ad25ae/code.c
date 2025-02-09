@@ -19,12 +19,13 @@ int main() {
             str[j] = str[j-1];
         }
         str[0] = temp;
-        if(strcmp(str,str3)){
+        if(!(strcmp(str,str3))){
             flag = 1;
         }
     }
 
-    printf("%d",strcmp("Hello","Yo"));
+    printf("%d",flag);
+
     
 
     return 0;
