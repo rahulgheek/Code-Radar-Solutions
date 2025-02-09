@@ -30,8 +30,11 @@ int main() {
     }
 
     for(int j = 0;j<a;j++){
-        printf("%d",ispalidrome(arr[j]));
+        if(ispalidrome(arr[j])){
+            count++;
+        }
     }
+    printf("%d",count);
 
     return 0;
 }
