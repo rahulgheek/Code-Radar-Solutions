@@ -14,7 +14,7 @@ int main() {
         }
         else if(arr[j] == 0){
             int temp = arr[j];
-            for(int k = j;k<n;k++){
+            for(int k = 0;k<n;k++){
                 arr[k] = arr[k+1];
             }
             arr[n-1] = temp;
