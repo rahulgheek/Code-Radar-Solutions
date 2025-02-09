@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main() {
-    int n,temp;
+    int n;
     scanf("%d",&n);
     int arr[n];
     for(int i = 0;i<n;i++){
@@ -10,11 +10,10 @@ int main() {
 
     for(int j = 0;j<n;j++){
         if(arr[j] == 0){
-            temp = arr[j];
+            int temp = arr[j];
             for(int k = j;k<n;k++){
                 arr[k] = arr[k];
             }
-            arr[n-1] = 0;
         }
     }
 
