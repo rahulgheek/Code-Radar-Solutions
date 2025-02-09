@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-bool ispalidrome(int num){
+int ispalidrome(int num){
     char str[10];
     int i = 0;
     while(num!=0){
@@ -9,7 +9,9 @@ bool ispalidrome(int num){
         num /= 10;
         i++;
     }
-    return str == num;
+    if(num==str){
+        return 1;
+    }
     
 }
 
