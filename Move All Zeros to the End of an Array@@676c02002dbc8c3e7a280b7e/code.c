@@ -14,6 +14,7 @@ int main() {
             for(int k = j;k<n;k++){
                 arr[k] = arr[k+1];
             }
+            arr[n-1] = temp;
         }
     }
 
