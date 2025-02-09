@@ -12,7 +12,7 @@ int ispalidrome(int num){
     }
     
     for(int j = 0;j<i;j++){
-        if(str[j]!=str[i-j]){
+        if(str[j]!=str[i-j-1]){
             return 0;
         }
     }
