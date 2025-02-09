@@ -11,12 +11,17 @@ int ispalidrome(int num){
         i++;
     }
     
-    printf("%d",i);
+    for(int j = 0;j<i;j++){
+        if(str[j]!=str[i-j-1]){
+            return 0;
+        }
+    }
+    return 1;
     
 }
 
 int main() {
-    int a;
+    int a,count = 0;
     scanf("%d",&a);
     int arr[a];
 
@@ -25,8 +30,11 @@ int main() {
     }
 
     for(int j = 0;j<a;j++){
-        ispalidrome(arr[j]);
-        printf("\n");
+        if(ispalidrome[arr[j]]){
+            count++;
+        }
     }
+
+    printf("%d",count);
     return 0;
 }
