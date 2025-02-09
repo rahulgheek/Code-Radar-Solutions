@@ -4,8 +4,10 @@ int main() {
     char str[50];
     scanf("%[^\n]%*c",&str);
 
+
     int i = 0;
     while(str[i] != '\0'){
+        str2[i] = str[i];
         i++;
     }
     
