@@ -1,8 +1,10 @@
 #include <stdio.h>
 
 int main() {
-    char str[50],str2[50];
+    char str[50],str2[50],str3[50];
     scanf("%[^\n]%*c",&str);
+    scanf("\n");
+    scanf("%[^\n]%*c",&str3);
 
 
     int i = 0;
@@ -17,6 +19,8 @@ int main() {
     }
     str[0] = temp;
 
-    printf("%s",str);
+    if(str == str3){
+        printf("Yes");
+    }
     return 0;
 }
