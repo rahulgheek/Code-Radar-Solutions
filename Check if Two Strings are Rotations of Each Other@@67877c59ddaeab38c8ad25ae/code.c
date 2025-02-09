@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main() {
-    char str[50],str2[50],str3[50];
+    char str[50],str3[50];
     scanf("%[^\n]%*c",&str);
     scanf("\n");
     scanf("%[^\n]%*c",&str3);
@@ -9,7 +9,6 @@ int main() {
 
     int i = 0;
     while(str[i] != '\0'){
-        str2[i] = str[i];
         i++;
     }
     int flag = 0;
@@ -19,18 +18,9 @@ int main() {
             str[j] = str[j-1];
         }
         str[0] = temp;
-        if(str == str3){
-            flag = 1;
-            break;
-        }
-        
+        printf("%s %s\n",str,str3);
     }
-    if(flag){
-        printf("Yes");
-    }
-    else{
-        printf("No");
-    }
+    
 
     return 0;
 }
