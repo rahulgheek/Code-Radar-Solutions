@@ -9,6 +9,7 @@ void ispalidrome(int num){
         num /= 10;
         i++;
     }
+    return str == num;
     
 }
 
