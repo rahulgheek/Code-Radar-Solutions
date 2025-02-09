@@ -1,6 +1,6 @@
 void bubbleSort(int arr[],n){
     int temp;
-    for(int i = 0;i<n;i++){
+    for(int i = 0;i<n-1;i++){
         if(arr[j]>arr[i]){
             for(int j = i+1;j<n;j++){
                 temp = arr[i];
