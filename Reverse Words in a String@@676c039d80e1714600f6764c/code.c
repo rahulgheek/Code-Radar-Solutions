@@ -3,7 +3,7 @@
 
 void reverse(int n,int j,char Str[100]){
     for(int i = j+n;i>=j+1;i--){
-        printf("%c",Str[i]);
+        printf("%c ",Str[i]);
     }
 }
 int main() {
