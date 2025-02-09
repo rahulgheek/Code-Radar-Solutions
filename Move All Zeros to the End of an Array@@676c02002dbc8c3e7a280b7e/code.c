@@ -7,9 +7,18 @@ int main() {
     for(int i = 0;i<n;i++){
         scanf("%d",&arr[i]);
     }
-
-    for(int j = 0;j<n;j++){
-        
+    int j = 0;
+    while(j<n){
+        if(arr[j] == 0){
+            int temp = arr[j];
+            for(int k = j;k<n;k++){
+                arr[k] = arr[k+1];
+            }
+            arr[n-1] = temp;
+        }
+        else{
+            j++;
+        }
     }
 
     for(int i = 0;i<n;i++){
