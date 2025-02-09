@@ -1,8 +1,7 @@
 #include <stdio.h>
 
 int main() {
-    char str[50],str2[50];
-    str2 = str;
+    char str[50];
     scanf("%[^\n]%*c",&str);
 
     int i = 0;
