@@ -11,7 +11,7 @@ int ispalidrome(int num){
         i++;
     }
     
-    printf(i);
+    printf("%d",i);
     
 }
 
