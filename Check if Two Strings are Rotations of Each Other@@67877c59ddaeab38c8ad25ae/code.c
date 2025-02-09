@@ -12,6 +12,7 @@ int main() {
         str2[i] = str[i];
         i++;
     }
+    int flag = 0;
     for(int k = 0;k<i;k++){
         char temp = str[i-1];
         for(int j = i-1;j>0;j--){
@@ -19,11 +20,16 @@ int main() {
         }
         str[0] = temp;
         if(str == str3){
-            printf("Yes");
+            flag = 1;
+            break;
         }
-        else{
-            printf("No");
-        }
+        
+    }
+    if(flag){
+        printf("Yes");
+    }
+    else{
+        printf("No");
     }
 
     return 0;
