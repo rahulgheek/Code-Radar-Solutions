@@ -17,7 +17,7 @@ int main() {
         if(str[i]==' ' || i == z){
             j = i - x-1;
             reverse(x,j,str);
-            x = 0;
+            x = 1;
             if(i==z){
 
             }
