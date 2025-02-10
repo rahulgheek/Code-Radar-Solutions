@@ -24,6 +24,10 @@ int main() {
         if(isinarr(arr2,arr[j])){
             printf("%d",1);
         }
+        else{
+            arr2[m] = arr[j];
+            m++;
+        }
 
 
     }
