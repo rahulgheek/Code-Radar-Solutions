@@ -20,7 +20,7 @@ int main() {
 
     for(int j = 0;j<a;j++){
         count = 0;
-        if(isinarr(arr[j])){
+        if(isinarr(arr2,arr[j])){
 
         }
         else{
@@ -30,6 +30,8 @@ int main() {
                 }
             }
             printf("%d %d\n",arr[j],count);
+            arr2[m] = arr[j];
+            m++;
         }
     }
 
