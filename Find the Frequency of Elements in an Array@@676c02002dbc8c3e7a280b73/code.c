@@ -3,10 +3,10 @@
 int isinarr(int arr[],int a){
     for(int k = 0;k<a;k++){
         if(arr[k] == a){
-            return 0;
+            return 1;
         }
     }
-    return 1;
+    return 0;
 }
 
 int main() {
