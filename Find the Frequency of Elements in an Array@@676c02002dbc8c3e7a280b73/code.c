@@ -20,12 +20,17 @@ int main() {
 
     for(int j = 0;j<a;j++){
         count = 0;
-        for(int k = 0;k<a;k++){
-            if(arr[j] == arr[k]){
-                count++;
-            }
+        if(isinarr(arr[j])){
+
         }
-        printf("%d %d\n",arr[j],count);
+        else{
+            for(int k = 0;k<a;k++){
+                if(arr[j] == arr[k]){
+                    count++;
+                }
+            }
+            printf("%d %d\n",arr[j],count);
+        }
     }
 
     
