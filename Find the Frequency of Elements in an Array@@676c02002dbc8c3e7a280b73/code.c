@@ -20,10 +20,7 @@ int main() {
 
     for(int j = 0;j<a;j++){
         count = 0;
-        if(isinarr(arr2,arr[j])){
-
-        }
-        else{
+        if(!isinarr(arr2,arr[j])){
             for(int k = 0;k<a;k++){
                 if(arr[j] == arr[k]){
                     count++;
