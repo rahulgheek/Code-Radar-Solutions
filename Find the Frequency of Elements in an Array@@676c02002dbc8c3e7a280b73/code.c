@@ -1,14 +1,12 @@
 #include <stdio.h>
-
-int isinarr(int arr[],int a){
-    for(int k = 0;k<a;k++){
+int isinarr(int arr[],int a,int n){
+    for(int k = 0;k<n;k++){
         if(arr[k] == a){
             return 1;
         }
     }
     return 0;
 }
-
 int main() {
     int a,count=0,m=0;
     scanf("%d",&a);
@@ -20,7 +18,7 @@ int main() {
 
     for(int j = 0;j<a;j++){
         count = 0;
-        if(!isinarr(arr2,arr[j])){
+        if(!isinarr(arr2,arr[j],a)){
             for(int k = 0;k<a;k++){
                 if(arr[j] == arr[k]){
                     count++;
@@ -31,8 +29,5 @@ int main() {
             m++;
         }
     }
-
-    
-
     return 0;
 }
