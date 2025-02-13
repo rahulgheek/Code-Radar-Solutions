@@ -1,14 +1,12 @@
 #include <stdio.h>
 
 int isinarr(int arr[],int a){
-    flag = 1;
     for(int k = 0;k<a;k++){
         if(arr[k] == a){
-            flag = 0;
-            break;
+            return 0;
         }
     }
-    return flag;
+    return 1;
 }
 
 int main() {
