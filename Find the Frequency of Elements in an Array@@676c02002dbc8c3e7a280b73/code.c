@@ -25,7 +25,7 @@ int main() {
                 count++;
             }
         }
-        printf("%d %d",arr[j],arr[k]);
+        printf("%d %d\n",arr[j],count);
     }
 
     
