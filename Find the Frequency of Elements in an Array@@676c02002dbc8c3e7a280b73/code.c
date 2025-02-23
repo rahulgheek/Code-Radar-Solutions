@@ -1,7 +1,7 @@
 #include <stdio.h>
-int isinarr(int arr[],int a,int n){
+int isinarr(int arr[],int b,int n){
     for(int k = 0;k<n;k++){
-        if(arr[k] == a){
+        if(arr[k] == b){
             return 1;
         }
     }
