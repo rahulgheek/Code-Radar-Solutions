@@ -25,7 +25,7 @@ int main(){
     }
     bubbleSort(arr,a);
 
-    int b,c,min = 100;
+    int b,c,min = 1000;
 
     for(int k = 0;k<a-1;k++){
         for(int l = k+1;l<a;l++){
