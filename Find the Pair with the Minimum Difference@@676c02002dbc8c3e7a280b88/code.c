@@ -23,10 +23,21 @@ int main(){
     for(int i = 0;i<a;i++){
         scanf("%d",&arr[i]);
     }
-
     bubbleSort(arr,a);
 
-    printf("%d",arr[0]);
+    int b,c,min = 100;
+
+    for(int k = 0;k<a-1;k++){
+        for(int l = k+1;l<a;l++){
+            if(arr[l]-arr[k] < min){
+                min = arr[l] - arr[k];
+                b = arr[l];
+                c = arr[k];
+            }
+        }
+    }
+
+    printf("%d",b);
     
 
     return 0;
