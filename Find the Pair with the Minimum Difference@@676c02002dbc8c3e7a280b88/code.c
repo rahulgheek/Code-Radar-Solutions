@@ -36,7 +36,10 @@ int main(){
             }
         }
     }
-
+    if(a == 1){
+        printf("%d",-1);
+    }
+    else
     printf("%d %d",c,b);
     
 
