@@ -37,7 +37,7 @@ int main(){
         }
     }
 
-    printf("%d",b);
+    printf("%d %d",c,b);
     
 
     return 0;
