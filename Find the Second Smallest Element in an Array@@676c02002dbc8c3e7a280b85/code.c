@@ -10,14 +10,7 @@ int main() {
         scanf("%d",&arr[i]);
     }
 
-    for(int j = 0;j<a;j++){
-        if(least>arr[j]){
-            secondleast = least;
-            least = arr[j];
-        }
-    }
-
-    printf("%d",secondleast);
+    
 
     return 0;
 }
