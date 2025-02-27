@@ -16,6 +16,7 @@ int main() {
             }
             count++;
         }
+        printf("%d %d\n",count,c);
         if(c == count){
             largest = arr[j];
         }
