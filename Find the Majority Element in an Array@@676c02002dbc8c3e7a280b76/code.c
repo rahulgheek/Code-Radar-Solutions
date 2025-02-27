@@ -20,6 +20,7 @@ int main() {
     for(int i = 0;i<a;i++){
         scanf("%d",&arr[i]);
     }
+    int arr1[a],arr2[a];
 
     bubbleSort(arr,a);
 
@@ -34,7 +35,9 @@ int main() {
 
         
         if(arr[i] != arr[i+1]){
-            printf("%d %d ",count,arr[i]);}
+            arr1[i] = count;
+            arr2[i] = arr[j];
+        }
     }
 
     
