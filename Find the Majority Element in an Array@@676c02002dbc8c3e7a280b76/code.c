@@ -28,9 +28,9 @@ int main() {
         if(arr[i] == arr[i+1]){
             count++;
         }
-        else{
-            n = count;
-            largest = arr[i];
+        
+        if(arr[i] != arr[i+1]){
+            printf("%d",counter);
         }
     }
 
