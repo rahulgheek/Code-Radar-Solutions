@@ -25,8 +25,11 @@ int main() {
 
     for(int i = 0;i<a;i++){
         int count = 0;
-        if(arr[i] == arr[i+1]){
-            count++;
+        
+        for(int k = 0;k<a;k++){
+            if(arr[i] == arr[k]){
+                count++;
+            }
         }
 
         
