@@ -36,7 +36,7 @@ int main() {
         
         if(arr[i] != arr[i+1]){
             arr1[i] = count;
-            arr2[i] = arr[j];
+            arr2[i] = arr[i];
         }
     }
 
