@@ -20,7 +20,7 @@ int main() {
     for(int j = 0;j<a;j++){
         int c = 0;
         d = 0;
-        if(isinarr(arr2,arr[j],m)){
+        if(isinarr(arr2,arr[j],d)){
         for(int k = 0;k<a;k++){
             if(arr[j]==arr[k]){
                 c++;
