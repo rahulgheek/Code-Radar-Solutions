@@ -18,13 +18,12 @@ int main() {
         }
         if(c > n){
             largest = arr[j];
+            n = c;
         }
         if(c == n){
             largest = -1;
-        }
-        
+        }   
     }
-
     printf("%d",largest);
 
     return 0;
