@@ -33,7 +33,9 @@ int main() {
         }
 
         
-        printf("%d %d ",count,arr[i]);
+        if(arr[i] != arr[i+1]){
+            printf("%d %d ",count,arr[i]);
+        }
     }
 
     
