@@ -30,7 +30,7 @@ int main() {
         }
         
         if(arr[i] != arr[i+1]){
-            printf("%d",counter);
+            printf("%d",count);
         }
     }
 
