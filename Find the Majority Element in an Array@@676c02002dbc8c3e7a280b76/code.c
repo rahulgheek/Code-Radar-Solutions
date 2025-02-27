@@ -34,8 +34,6 @@ int main() {
         }
     }
 
-    printf("%d",largest);
-
     
 
     return 0;
