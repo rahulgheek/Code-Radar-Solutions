@@ -28,7 +28,7 @@ int main() {
         if(arr[i] == arr[i+1]){
             count++;
         }
-        else if(count>n){
+        else{
             n = count;
             largest = arr[i];
         }
