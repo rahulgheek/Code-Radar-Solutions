@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main() {
-    int a,largest = -1,count=0;
+    int a,largest = -1,count=0,n=0;
     scanf("%d",&a);
     int arr[a];
     for(int i = 0;i<a;i++){
@@ -16,8 +16,7 @@ int main() {
             }
             count++;
         }
-        printf("%d %d\n",count,c);
-        if(c == count){
+        if(c > n){
             largest = arr[j];
         }
         
