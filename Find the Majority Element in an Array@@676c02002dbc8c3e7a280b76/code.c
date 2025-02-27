@@ -19,6 +19,9 @@ int main() {
         if(c > n){
             largest = arr[j];
         }
+        if(c == n){
+            largest = -1;
+        }
         
     }
 
