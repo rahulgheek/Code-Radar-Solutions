@@ -13,12 +13,12 @@ int main() {
     int arr[a],arr2[a];
     
     for(int i = 0;i<a;i++){
-        scanf("%d ",&arr[i]);
+        scanf("%d",&arr[i]);
     }
 
     for(int j = 0;j<a;j++){
         count = 0;
-        if(!isinarr(arr2,arr[j],a)){
+        if(!isinarr(arr2,arr[j],m)){
             for(int k = 0;k<a;k++){
                 if(arr[j] == arr[k]){
                     count++;
