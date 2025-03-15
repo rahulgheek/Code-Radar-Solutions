@@ -1,5 +1,5 @@
 #include <stdio.h>
 
-int findUnsortedSubarray(int n){
+int findUnsortedSubarray(int *arr,int n){
 
 }
