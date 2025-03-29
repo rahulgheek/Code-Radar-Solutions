@@ -16,5 +16,5 @@ int findKthMissing(int arr[],int n,int k){
             }
         }
     }
-    return count;
+    return res;
 }
