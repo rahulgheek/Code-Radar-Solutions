@@ -21,12 +21,12 @@ int main(){
     }
 
     bubblesort(arr,n);
-
+    int res = 0;
     for(int j = 0;j<n;j++){
         if(arr[j] < 0){
             continue;
         }
-        int res = 0;
+        
         if(arr[j] == res){
             res++;
         }
