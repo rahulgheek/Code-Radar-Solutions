@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <string.h>
+#include <ctype.h>
 
 void caesarCipher(char str[],int shift,char message[]){
     strcpy(message,str);
@@ -8,7 +9,7 @@ void caesarCipher(char str[],int shift,char message[]){
         if(message[i] == ' '){
             i++;
             continue;
-}
+        }
         message[i] += shift;
         i++;
     }
