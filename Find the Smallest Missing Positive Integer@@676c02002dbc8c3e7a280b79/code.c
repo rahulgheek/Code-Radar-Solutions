@@ -31,9 +31,9 @@ int main(){
             res++;
         }
         else{
-            printf("%d",res);
             break;
         }
     }
+    printf("%d",res);
     return 0;
 }
