@@ -10,7 +10,9 @@ void caesarCipher(char str[],int shift,char message[]){
             i++;
             continue;
         }
+        for(int j = 0;j<shift;j++){
         message[i]++;
+        }
         i++;
     }
 }
