@@ -1,6 +1,6 @@
 #include <stdio.h>
 int mountainPeak(int N){
-    int arr[0],n=0,i=0;
+    int arr[30],n=0,i=0;
 
     while(N!=0){
         arr[i]=N%10;
@@ -8,7 +8,7 @@ int mountainPeak(int N){
         i++;
     }
 
-    return arr[i];
+    return arr[0];
 
     return 0;
 }
