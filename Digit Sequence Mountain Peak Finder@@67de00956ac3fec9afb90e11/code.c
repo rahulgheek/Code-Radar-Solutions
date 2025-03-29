@@ -8,7 +8,11 @@ int mountainPeak(int N){
         i++;
     }
 
-    return arr[i/2];
+    for(int j = 0;j<i;j++){
+        if(arr[i/2] <= arr[j] && i/2 != j){
+            return -1;
+        }
+    }
 
-    return 0;
+    return arr[i/2];
 }
