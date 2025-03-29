@@ -26,5 +26,5 @@ int findUnsortedSubarray(int arr[],int n){
         }
     }
 
-    return n+count;
+    return n-count;
 }
