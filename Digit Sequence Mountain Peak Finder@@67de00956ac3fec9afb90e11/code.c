@@ -8,7 +8,7 @@ int mountainPeak(int N){
         i++;
     }
 
-    return arr[0];
+    return arr[i/2];
 
     return 0;
 }
