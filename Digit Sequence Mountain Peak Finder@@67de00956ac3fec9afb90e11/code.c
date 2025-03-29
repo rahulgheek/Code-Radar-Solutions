@@ -1,5 +1,5 @@
 #include <stdio.h>
-int mountainPeak(N){
+int mountainPeak(int N){
 
     return 0;
 }
