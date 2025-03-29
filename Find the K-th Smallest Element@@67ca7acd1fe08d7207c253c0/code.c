@@ -12,7 +12,7 @@ void bubblesort(int arr[],int n){
     }
 }
 
-int kthSmalles(int arr[],int n,int k){
+int kthSmallest(int arr[],int n,int k){
     bubblesort(arr,n);
     return arr[k-1];
 }
