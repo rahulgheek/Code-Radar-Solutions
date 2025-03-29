@@ -23,7 +23,7 @@ int main(){
     bubblesort(arr,n);
     int res = 1;
     for(int j = 0;j<n;j++){
-        if(arr[j] < 0){
+        if(arr[j] <= 0){
             continue;
         }
         
