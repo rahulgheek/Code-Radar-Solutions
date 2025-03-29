@@ -21,7 +21,7 @@ int findUnsortedSubarray(int arr[],int n){
     bubblesort(arr1,n);
 
     for(int j = 0;j<n-1;j++){
-        if(arr[j] != arr1[j] && arr[j+1]!= arr1[j+1]){
+        if(arr[j] != arr1[j]){
             count++;
         }
     }
