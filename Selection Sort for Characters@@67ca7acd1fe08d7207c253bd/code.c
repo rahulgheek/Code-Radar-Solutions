@@ -1,5 +1,5 @@
 #include <stdio.h>
-void bubbleSort(char arr[],int n){
+void selectionSort(char arr[],int n){
     char temp;
     for(int i = 0;i<n;i++){
             for(int j = i+1;j<n;j++){
