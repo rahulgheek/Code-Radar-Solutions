@@ -10,6 +10,7 @@ int findKthMissing(int arr[],int n,int k){
             if(k+1 == res){
                 return arr[i]+res;
             }
+            res++;
         }
     }
 }
